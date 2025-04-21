@@ -1,0 +1,62 @@
+@import '../styles/variables';
+
+.footer {
+  background-color: #222;
+  color: #f1f1f1;
+  padding: $spacing-lg 0;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 $spacing-md;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: $spacing-lg;
+  }
+
+  &__info {
+    flex: 1 1 300px;
+
+    p {
+      margin: 0.3rem 0;
+    }
+
+    .footer__title {
+      font-size: 1.5rem;
+      color: $primary-orange;
+      margin-bottom: $spacing-sm;
+    }
+  }
+
+  &__social {
+    flex: 1 1 200px;
+    h4 {
+      margin-bottom: $spacing-sm;
+      color: $primary-green;
+    }
+
+    &__icons,
+    .footer__icons {
+      display: flex;
+      gap: $spacing-sm;
+
+      a {
+        font-size: 1.5rem;
+        color: #f1f1f1;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: $primary-orange;
+        }
+      }
+    }
+  }
+
+  &__copy {
+    text-align: center;
+    margin-top: $spacing-md;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+}

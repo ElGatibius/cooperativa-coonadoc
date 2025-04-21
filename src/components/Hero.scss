@@ -1,0 +1,60 @@
+@import '../styles/variables';
+
+.hero {
+  width: 100%;
+  height: 70vh; // ajusta según prefieras
+  position: relative;
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero__slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    &::after {
+      // filtro oscuro para texto legible
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .hero__title {
+    position: relative;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: $spacing-md;
+    animation: fadeInUp 1s ease both;
+  }
+
+  // Paginación personalizada
+  .swiper-pagination-bullet {
+    background: rgba($primary-green, 0.5);
+    &-active {
+      background: $primary-orange;
+    }
+  }
+}
+
+// Animación de título
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
