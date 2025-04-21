@@ -8,7 +8,7 @@ export default function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (email.trim()) {
-      // Aquí podrías integrar backend o una API de correo
+      
       console.log('Correo enviado:', email);
       setSubmitted(true);
       setEmail('');
