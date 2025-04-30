@@ -1,42 +1,31 @@
-import React, { useState } from 'react'
-import './Navbar.scss'
-import logo from '../assets/logo.png'
+// src/components/Navbar.jsx
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.scss';
+import logo from '../assets/logo.png';
 
-function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
-  const toggleMenu = () => setIsOpen(prev => !prev)
+export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => setIsOpen(o => !o);
 
   return (
     <nav className={`navbar ${isOpen ? 'open' : ''}`}>
       <div className="navbar__content">
-        {/* Menú principal */}
         <ul className={`navbar__menu ${isOpen ? 'active' : ''}`}>
-          <li><a href="#">COONADOC</a></li>
-          <li><a href="#">SERVICIOS</a></li>
-          <li><a href="#">EN LÍNEA</a></li>
-          <li><a href="#">CONTACTO</a></li>
-          <li><a href="#">CLASIFICADOS</a></li>
+          <li><Link to="/">COONADOC</Link></li>
+          <li><Link to="/nosotros">NOSOTROS</Link></li>
+          <li><Link to="/servicios">SERVICIOS</Link></li>
+          <li><Link to="/documentos">DOCUMENTOS</Link></li>
+          <li><Link to="/blog">BLOG</Link></li>
         </ul>
-
-        {/* Toggle hamburguesa */}
-        <button
-          className="navbar__toggle"
-          onClick={toggleMenu}
-          aria-label="Toggle menu"
-        >
-          <span />
-          <span />
-          <span />
+        <button className="navbar__toggle" onClick={toggleMenu} aria-label="Toggle menu">
+          <span/><span/><span/>
         </button>
-
-        {/* Logo */}
         <div className="navbar__logo">
-          <img src={logo} alt="Logo de COONADOC" />
+          <Link to="/"><img src={logo} alt="Logo de COONADOC" /></Link>
         </div>
       </div>
     </nav>
-  )
+  );
 }
-
-export default Navbar
 
