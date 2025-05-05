@@ -6,9 +6,9 @@ import './Nosotros.scss';
 
 const documentos = [
     {
-      titulo: 'Reglamento de crédito',
-      descripcion: 'Documento que regula las políticas de préstamos.',
-      link: '/docs/reglamento_credito.pdf'
+      titulo: 'Reglamento de aportes',
+      descripcion: 'Por medio del cual se reforma el presente Reglamento de Aportes Sociales de la Cooperativa Nacional de Docentes',
+      link: '/docs/aportes.pdf'
     },
     {
       titulo: 'Estatutos cooperativos',
