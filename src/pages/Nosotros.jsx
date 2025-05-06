@@ -8,7 +8,7 @@ const documentos = [
     {
       titulo: 'Reglamento de aportes',
       descripcion: 'Por medio del cual se reforma el presente Reglamento de Aportes Sociales de la Cooperativa Nacional de Docentes',
-      link: '/docs/aportes.pdf'
+      link: 'https://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_41_01/ACTUALIZACI-N-DE-DATOS-DIC-2022.pdf'
     },
     {
       titulo: 'Estatutos cooperativos',

@@ -17,6 +17,7 @@ export default function Navbar() {
           <li><Link to="/servicios">SERVICIOS</Link></li>
           <li><Link to="/documentos">DOCUMENTOS</Link></li>
           <li><Link to="/blog">BLOG</Link></li>
+          <li><Link to="/contacto">CONTACTO</Link></li>
         </ul>
         <button className="navbar__toggle" onClick={toggleMenu} aria-label="Toggle menu">
           <span/><span/><span/>

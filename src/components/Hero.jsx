@@ -10,11 +10,13 @@ import './Hero.scss';
 import img1 from '../assets/hero1.jpg';
 import img2 from '../assets/hero2.jpg';
 import img3 from '../assets/hero3.jpg';
+import img4 from '../assets/hero4.jpg';
 
 const slides = [
   { image: img1, title: 'Bienvenidos a COONADOC' },
   { image: img2, title: 'Soluciones financieras confiables' },
   { image: img3, title: 'Crecemos con nuestra comunidad' },
+  { image: img4, title: 'Eficiencia, Confianza y Calidez'},
 ];
 
 export default function Hero() {
