@@ -2,21 +2,21 @@
 export const documents = [
     // Documentos de Nosotros
     {
-      titulo: 'Prueba nosotros',
-      descripcion: 'Normas internas que rigen a COONADOC.',
-      link: '/docs/reglamento_credito.pdf',
+      titulo: 'CODIGO BUEN GOBIERNO',
+      descripcion: 'Resolucion No.7 Junio 2017',
+      link: 'https://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_43_01/Codigo-de-Buen-Gobierno.1.pdf',
       category: 'Nosotros'
     },
     {
-      titulo: 'Estatutos cooperativos',
-      descripcion: 'Normas internas que rigen a COONADOC.',
-      link: '/docs/estatutos.pdf',
+      titulo: 'TRATAMIENTO DE DATOS',
+      descripcion: 'Politica y procedimiento de proteccion de datos personales ',
+      link: 'https://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_43_02/Politica-de-tratamiento-de-datos.pdf',
       category: 'Nosotros'
     },
     {
-      titulo: 'Informe financiero 2024',
-      descripcion: 'Resumen anual de los estados financieros.',
-      link: '/docs/informe_financiero_2024.pdf',
+      titulo: 'POLITICA INTEGRAL',
+      descripcion: 'Politica integral',
+      link: 'https://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_43_03/Politica-Integral.pdf',
       category: 'Nosotros'
     },
   
