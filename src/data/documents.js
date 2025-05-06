@@ -19,7 +19,12 @@ export const documents = [
       link: 'https://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_43_03/Politica-Integral.pdf',
       category: 'Nosotros'
     },
-  
+    {
+      titulo: 'NO ALCOHOL NO DROGAS',
+      descripcion: 'POLITICA DE NO ALCOHOL Y NO DROGAS',
+      link: 'https://docs.google.com/viewerng/viewer?url=httphttps://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_43_04/Politica-No-Alcohol-y-No-Drogas.pdfs://web.coonadoc.co/pluginAppObj/pluginAppObj_43_03/Politica-Integral.pdf',
+      category: 'Nosotros'
+    },
     // Documentos de Servicios
     {
       titulo: 'Prueba Servicios',
