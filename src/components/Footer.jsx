@@ -32,6 +32,8 @@ export default function Footer() {
       </div>
       <div className="footer__copy">
         © {new Date().getFullYear()} COONADOC. Todos los derechos reservados.
+        Desarollado por: Fundacion Universitaria Compensar <br />
+        Edwin Luque - Alejandro Garcia
       </div>
     </footer>
   );
