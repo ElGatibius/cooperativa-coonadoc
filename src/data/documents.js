@@ -50,6 +50,23 @@ export const documents = [
       link: '/docs/manual_servicios.pdf',
       category: 'Servicios'
     },
-
+    {
+      titulo: 'Solicitud de Asociacion',
+      descripcion: 'Solicitud de asociacion y actualizacion de datos.',
+      link: 'https://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_41_09/Formato-solicitud-de-asociacion.pdf',
+      category: 'Servicios'
+    },
+    {
+      titulo: 'Solicitud de Credito',
+      descripcion: 'Diligencie la solicitud de credito.',
+      link: 'https://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_41_10/Formato-solicitud-de-credito.pdf',
+      category: 'Servicios'
+    },
+    {
+      titulo: 'Solicitud de Giro',
+      descripcion: 'Diligencie la solicitud de gito.',
+      link: 'https://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_41_11/Solicitud-de-giro.pdf',
+      category: 'Servicios'
+    },
   ];
   
