@@ -39,18 +39,6 @@ export const documents = [
     },
     // Documentos de Servicios
     {
-      titulo: 'Prueba Servicios',
-      descripcion: 'Normas y condiciones para acceder a los productos crediticios.',
-      link: '/docs/reglamento_credito.pdf',
-      category: 'Servicios'
-    },
-    {
-      titulo: 'Manual de servicios',
-      descripcion: 'Conozca en detalle los servicios ofrecidos por COONADOC.',
-      link: '/docs/manual_servicios.pdf',
-      category: 'Servicios'
-    },
-    {
       titulo: 'Solicitud de Asociacion',
       descripcion: 'Solicitud de asociacion y actualizacion de datos.',
       link: 'https://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_41_09/Formato-solicitud-de-asociacion.pdf',
