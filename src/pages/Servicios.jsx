@@ -46,12 +46,12 @@ export default function Servicios() {
             Radique su solicitud de afiliación adjuntando formulario completamente diligenciado con firma, huella y cédula de ciudadanía por ambas caras al correo <a href="mailto:afiliaciones@coonadoc.co">afiliaciones@coonadoc.co</a>
           </p>
           <div className="botones">
-            <a target="_blank" rel="https://www.web.coonadoc.co/files/ACTUALIZACI-N-DE-DATOS-DIC-2022.pdf
-">Inscripción nuevos socios</a>
-            <a target="_blank" rel="noreferrer">Nuevos socios menores de edad</a>
-            <a target="_blank" rel="noreferrer">Actualización de datos</a>
-            <a target="_blank" rel="noreferrer">Inscripción en línea</a>
-            <a target="_blank" rel="noreferrer">Actualización en línea</a>
+            <a target="_blank" href="https://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_41_02/ACTUALIZACI-N-DE-DATOS-DIC-2022.pdf">Inscripción nuevos socios</a>
+            <a target="_blank" href="https://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_41_03/Autorizacion-para-asociar-menores-de-edad.pdf">Nuevos socios menores de edad</a>
+            <a target="_blank" href="https://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_41_01/ACTUALIZACI-N-DE-DATOS-DIC-2022.pdf">Actualización de datos</a>
+            <a target="_blank" href="https://www.web.coonadoc.co/solicitud-en-linea.html">Inscripción en línea</a>
+            <a target="_blank" href="https://www.web.coonadoc.co/solicitud-en-linea.html">Actualización en línea</a>
+            <a target="_blank" href="https://docs.google.com/viewerng/viewer?url=https://web.coonadoc.co/pluginAppObj/pluginAppObj_41_06/Formato-de-retiro.pdf">Retiros</a>
           </div>
         </div>
 
