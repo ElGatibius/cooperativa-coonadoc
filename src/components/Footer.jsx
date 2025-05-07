@@ -15,13 +15,13 @@ export default function Footer() {
         <div className="footer__social">
           <h4>Síguenos</h4>
           <div className="footer__icons">
-            <a href="https://facebook.com" target="_blank" rel="https://www.facebook.com/COONADOC/">
+            <a href="https://web.facebook.com/COONADOC/?_rdc=1&_rdr" target="_blank" rel="https://www.facebook.com/COONADOC/">
               <FaFacebookF />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="https://www.instagram.com/coopcoonadoc/">
+            <a href="https://www.instagram.com/coopcoonadoc/" target="_blank" rel="https://www.instagram.com/coopcoonadoc/">
               <FaInstagram />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="https://x.com/i/flow/login?redirect_after_login=%2FCoonadoc">
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2FCoonadoc" target="_blank" rel="https://x.com/i/flow/login?redirect_after_login=%2FCoonadoc">
               <FaTwitter />
             </a>
             <a href="mailto:contacto@coonadoc.com">
